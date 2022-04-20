@@ -1,0 +1,838 @@
+body{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    text-decoration: none;
+    background-color: #f6f3ec;
+  
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+    
+    
+  
+}
+/* header css started */
+.header{
+    background-color: white;
+    width: 100%;
+    padding: 15px 10px 15px;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section .s-links{
+   font-size: 16px;
+  
+}
+.header-section .s-links i{
+   margin: 0 2px;
+   color: #c9c9c9;
+   border: 1px solid #c9c9c9;
+   padding: 4px 8px;
+   border-radius: 5px;
+ }
+/* Header section closed*/
+
+/* inner header section css started */
+.inner-header{
+    background-color: #ec6c7b;
+    width: 100%;
+   
+}
+.inner-header .navbar-section {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 0px 0px 8px;
+
+}
+
+.bg-first{
+    background-image: url(../images/slider.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.inner-header .navbar-section h3 {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+   
+}
+.fla:after {
+    content: "";
+    border-right: 2px solid white;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* inner header section css ends*/
+/* home slider section css */
+
+.images-slider{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 30%;
+    align-items: center;
+}
+.carousel-caption h5{
+    font-size: 35px;
+    font-weight: 700;
+}
+.carousel-caption h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.btn{
+    padding: 9px 27px;
+    border: 1px solid #c9c9c9;
+    color: white;
+    border-right: 1px solid white;
+    border-radius: 0px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+/* home slider section css ends */
+
+
+
+ /* Coffee Flavour products css started */
+.coffee-main{
+    position: relative;
+    bottom: 50px;
+}
+.coffee-section{
+    display: flex;
+  
+}
+.coffee-sec{
+    background-color: #D98C95;
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+    
+}
+.coffee-sec:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    
+}
+.coffee-sec:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    
+}
+.coffee-sec .title{
+   padding: 50px;
+}
+.coffee-sec .title h5{
+   
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.coffee-sec .title span{
+   
+    color: white;
+    font-weight: 700;
+   
+}
+.coffee-sec2{
+    background-color: #CFAD87;
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+   
+}
+
+.coffee-sec2:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    
+}
+.coffee-sec2:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    
+}
+.coffee-sec2 .title{
+    padding: 50px;
+ }
+ .coffee-sec2 .title h5{
+    text-align: center;
+     color: white;
+     font-weight: 700;
+     font-size: 25px;
+ }
+ .coffee-sec2 .title span{
+   
+     color: white;
+     font-weight: 700;
+    
+ }
+.coffee-sec3{
+    background-color: #d8a163;
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+   
+   
+}
+
+.coffee-sec3:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    
+}
+.coffee-sec3:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    
+}
+.coffee-sec3 .title{
+    padding: 50px;
+ }
+ .coffee-sec3 .title h5{
+    text-align: center;
+     color: white;
+     font-weight: 700;
+     font-size: 25px;
+ }
+ .coffee-sec3 .title span{
+   
+     color: white;
+     font-weight: 700;
+    
+ }
+
+  /* Coffee Flavour products css ends */
+/* Featured Posts section started*/
+.fea-pro{
+    margin-top: 40px;
+}
+.featured{
+    margin-top: 40px;
+    
+}
+.caption{
+    text-align: center;
+    bottom: 30px;
+ }
+.fea-caption h3{
+    font-weight: bold;
+    color: #896869;
+}
+.fea-border{
+    border: 2px dotted #896869;
+}
+/* Featured Posts section ends*/
+
+ /* Featured products css started */
+.fea-box{
+    background-color: white;
+    border: 1px solid #896869;
+    
+}
+.fea-box2{
+    background-color: white;
+    border: 1px solid #896869;
+    margin-top: 30px;
+    
+}
+.fea-cont{
+    text-align: center;
+    margin: 22px;
+}
+.fea-cont h5{
+    color: #896869;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fea-cont span{
+    color: #896869;
+    font-size: 20px;
+    font-weight: bold;
+}
+.add{
+    margin-top: 25px;
+}
+.btns{
+    padding: 10px 50px;
+    color: white;
+    background: #896869;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.fea-cont p{
+    color: #896869;
+    font-weight: 700;
+}
+ /* Featured products css ends */
+
+/* Featured Svaing & discount section css starts*/
+.offer-sec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .off-box{
+     background-color: #c99aa0;
+     text-align: center;
+     position: relative;
+    
+    
+ }
+
+ .off-box:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(180deg);
+
+}
+.off-box:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(0deg);
+
+}
+.off-title {
+    padding: 60px 0px 60px 0px;
+}
+ .off-box .off-title h3{
+   color: white;
+   font-weight: bold;
+   font-size: 22px;
+   
+}
+.off-box .off-title span{
+    color: white;
+    font-weight: bold;
+    
+    
+ }
+ .font-item i{
+     font-size: 50px;
+     margin-top: 20px;
+    
+     color: white;
+ }
+.border-offer{
+    border: 2px dotted #896869;;
+}
+ /* Featured Svaing & discount section css ends*/
+ .slideshow-container h3{
+     text-align: center;
+ }
+
+ .heading-cr{
+    font-weight: bold;
+   font-size: 35px;
+   color: white;
+  
+}
+.quote{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 60px;
+}
+
+.bg-slide{
+    background-image: url(../images/img9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 15px;
+    margin-top: 40px;
+}
+ .slideshow-container {
+    position: relative;
+  }
+.testi-image img{
+    border-radius: 100%;
+    margin-top: 15px;
+    border: 4px solid white;
+}
+  /* Slides */
+  .mySlides {
+    display: none;
+    
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 75px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+   text-decoration: none;
+   outline: none;
+    
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic; font-weight: bold; color: white;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue; margin-top: 15px; font-size: 15px; color: white; font-weight: bold;}
+
+.carousel-inner{
+    position: relative;
+}
+.border-off{
+    border: 2px dotted #896869;
+    margin-top: 40px;
+}
+footer{
+    background: #ec6c7b;
+    margin-top: 40px;
+}
+.box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.heading-foo h3{
+    font-weight: bold;
+    color: white;
+}
+li{
+    list-style: none;
+    margin: 2px;
+    font-size: 19px;
+    color: white;
+}
+li.cate-item {
+    margin-top: 10px;
+}
+.category-set{
+    margin-top: 25px;
+}
+i.fa-empire{
+    font-size: 20px;
+}
+.fa-empire:before {
+    content: "\f1d1";
+    margin-right: 16px;
+}
+.foo-end{
+    background: #645757;
+    padding: 20px;
+}
+.foo-text span{
+    margin: 70px;
+    color: white;
+}
+.fa-copyright:before {
+    content: "\f1f9";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* media queries started */
+
+@media only screen and (max-width: 768px){
+    .inner-header .navbar-section h3 {
+        font-size: 16px;
+    }
+    .inner-header .navbar-section{
+        display: block;
+        padding: 20px;
+        text-align: center;
+}
+.fla:after {
+    content: "";
+    border: 0px;
+}
+.images-slider{
+    position: relative;
+    flex: 1 1 15rem;
+   
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 15%;
+    align-items: center;
+    margin-top: 20px;
+}
+.carousel-caption h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+.carousel-caption h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn{
+    padding: 5px 18px;
+    border: 1px solid #c9c9c9;
+    color: white;
+    border-right: 1px solid white;
+    border-radius: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+.coffee-section{
+   display: block;
+   
+   
+}
+.coffee-main{
+    text-align: -webkit-center;
+   
+}
+.coffee-sec{
+    background-color: #D98C95;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+
+    
+   
+    
+}
+
+
+.coffee-sec2{
+    background-color:  #CFAD87;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+    
+}
+.coffee-sec3{
+    background-color: #d8a163;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+    
+}
+.img img{
+    height: 60%;
+    margin: 20px;
+}
+.caption {
+    text-align: center;
+    bottom: 0px;
+}
+.fea-box{
+    margin: 0px 0px 20px;
+}
+.off-box{
+    margin: 0px 0px 20px;
+}
+.heaqding-cr{
+    font-size: 10px;
+    height: auto;
+    width: auto;
+}
+.testi-image img{
+    width: 10%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+
+
+}
+@media only screen and (max-width: 1199px){
+    .inner-header .navbar-section h3 {
+        font-size: 16px;
+    }
+    .inner-header .navbar-section{
+        display: block;
+        padding: 20px;
+        text-align: center;
+}
+.fla:after {
+    content: "";
+    border: 0px;
+}
+
+.coffee-section{
+   display: block;
+}
+.coffee-main{
+    text-align: -webkit-center;
+}
+.coffee-sec{
+    background-color: #D98C95;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+    
+}
+.coffee-sec2{
+    background-color:  #CFAD87;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+    
+}
+.coffee-sec3{
+    background-color: #d8a163;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px;
+    
+}
+.caption {
+    text-align: center;
+    bottom: 0px;
+}
+.fea-box{
+    margin: 0px 0px 20px;
+}
+.off-box{
+    margin: 0px 0px 20px;
+}
+.heaqding-cr{
+    font-size: 10px;
+    height: auto;
+    width: auto;
+}
+.testi-image img{
+    width: 10%;
+}
+.btns{
+    padding: 4px 10px;
+    color: white;
+    background: #896869;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.fea-cont h5{
+    font-size: 10px;
+}
+.fea-cont span{
+    font-size: 10px;
+}
+.fea-cont {
+    text-align: center;
+   margin: 0px;
+}
+.add {
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 468px){
+
+.s-links i .fa-brands{
+    margin: 10px;
+}
+    .images-slider{
+        position: relative;
+        flex: 1 1 15rem;
+       
+    }
+    .carousel-caption{
+        position: absolute;
+        bottom: 15%;
+        align-items: center;
+       
+    }
+    .carousel-caption h5{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .carousel-caption h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .btn{
+       
+        border: 1px solid #c9c9c9;
+        color: white;
+        border-right: 1px solid white;
+        border-radius: 0px;
+        cursor: pointer;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .coffee-section{
+        display: block;
+        margin-top: 25px;
+     }
+     .coffee-main{
+         text-align: -webkit-center;
+     }
+}
+
